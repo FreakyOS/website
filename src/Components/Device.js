@@ -14,6 +14,7 @@ export default class Device extends Component{
         }
 
         this.toggle = this.toggle.bind(this);
+        this.datetime = this.datetime.bind(this);
     }
 
     toggle() {
@@ -22,6 +23,20 @@ export default class Device extends Component{
         }));
       }
       
+    datetime(){
+        let unix_timestamp = this.state.details.datetime
+        var date = new Date(unix_timestamp * 1000);
+        var year = date.getFullYear();
+        var month = date.getMonth();
+        var day = date.getDate();
+        var hours = date.getHours();
+        var minutes = "0" + date.getMinutes();
+        var seconds = "0" + date.getSeconds();
+        var formattedDate = day + '/' + month + '/' + year
+        var formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+        return formattedDate
+    }
+
     componentDidMount(){
         axios.get(`/${this.props.device.codename}/${this.props.device.codename}.json`).then(
             (response) => {
@@ -50,7 +65,7 @@ export default class Device extends Component{
                             RomVersion : {this.state.details.version}<br></br>
                             FileName   : {this.state.details.filename}<br></br>
                             RomSize    : {Math.trunc(this.state.details.size/1048576)} MB<br></br>
-                            Builddate  : xxx<br></br>
+                            Builddate  : {this.datetime()}<br></br>
                         </CardText>
                     </ModalBody>
                     <ModalFooter>

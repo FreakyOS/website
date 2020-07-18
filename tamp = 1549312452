@@ -1,0 +1,62 @@
+[33mcommit 4ec0ea811b2ab0f29de425a1943fc36e0248e7e9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: jeivardan <jeivardanvenkatesh@gmail.com>
+Date:   Sat Jul 18 12:52:02 2020 +0530
+
+    FreakySite : Introduced Download Page
+    
+    Signed-off-by: jeivardan <jeivardanvenkatesh@gmail.com>
+    Change-Id: I2d3151e5857df5224152179536ca2e6391fc6bc0
+
+[33mcommit d5a9a9e2d1c2a7b252657cb0caaba70d28c7dce3[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Niteshkumar <nitesh156200@gmail.com>
+Date:   Sat Jul 11 18:58:33 2020 +0530
+
+    FreakySite: Introduce sass
+    
+    Signed-off-by: Niteshkumar <nitesh156200@gmail.com>
+    Change-Id: I8f488e5853f12ba3e56c9a6d9b39caa18b9ece4f
+
+[33mcommit 1ac0f29c91e6f1da23fbc8b29d23c4fd25584271[m[33m ([m[1;31morigin/still_alive[m[33m)[m
+Merge: 440eae4 c1877a8
+Author: Niteshkumar <nitesh156200@gmail.com>
+Date:   Sat Jun 27 16:14:08 2020 +0530
+
+    Merge branch 'dev'
+
+[33mcommit c1877a81316c5859f9dc407e4f21761724cb50a0[m
+Author: Niteshkumar <nitesh156200@gmail.com>
+Date:   Sat Jun 27 16:10:37 2020 +0530
+
+    FreakySite: Introduce Dynamic Download Page Generation
+    
+    Signed-off-by: Niteshkumar <nitesh156200@gmail.com>
+
+[33mcommit d045346219725a784daed0be75b939bb82103c0e[m
+Author: Niteshkumar <nitesh156200@gmail.com>
+Date:   Fri Jun 26 14:21:50 2020 +0530
+
+    FreakySite: Get Ready for github pages
+    
+    Signed-off-by: Niteshkumar <nitesh156200@gmail.com>
+
+[33mcommit 440eae4950e854be01afa01fad79329c0db3c8a3[m
+Author: Niteshkumar <nitesh156200@gmail.com>
+Date:   Fri Jun 26 14:21:50 2020 +0530
+
+    FreakySite: Get Ready for github pages
+    
+    Signed-off-by: Niteshkumar <nitesh156200@gmail.com>
+
+[33mcommit af7f88ff28e4c599f1c34847555938db34e69ee0[m
+Author: niteshkumar2000 <nitesh156200@gmail.com>
+Date:   Sun Jun 21 20:03:56 2020 +0530
+
+    FreakySite: Init Empty React Freaky Site
+    
+    Signed-off-by: niteshkumar2000 <nitesh156200@gmail.com>
+
+[33mcommit 18ee4d21d79f4b2db76c443c92f971730dbfada1[m
+Author: niteshkumar2000 <nitesh156200@gmail.com>
+Date:   Sun Jun 21 18:42:50 2020 +0530
+
+    Initialize project using Create React App
