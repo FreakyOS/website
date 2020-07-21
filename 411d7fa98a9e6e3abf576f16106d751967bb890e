@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "7d62c9c4_be4c6504",
+        "filename": "src/Pages/Download.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2020-07-21T07:32:06Z",
+      "side": 1,
+      "message": "Also let\u0027s try adding on App.js too...",
+      "revId": "411d7fa98a9e6e3abf576f16106d751967bb890e",
+      "serverId": "52305d8f-5d5a-4b15-9a96-2f03c7c153c6",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7f1f2849_e7dd3450",
+        "filename": "src/Pages/Download.js",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2020-07-21T07:32:06Z",
+      "side": 1,
+      "message": "@jeivardan make sure these tokens are put in a config file and fetched from there, we always should not hard code values\n\n* step1: https://github.com/DAMCS/hack-in/blob/master/.env.development\n* step2: https://github.com/DAMCS/hack-in/blob/master/src/App.js#L9\n\nJust check with the DAMCS project and use it as reference! 😊\n\n* step3: try hitting the page and check the google analytics window if the it\u0027s visible if so it\u0027s verified and we are ready to merge",
+      "revId": "411d7fa98a9e6e3abf576f16106d751967bb890e",
+      "serverId": "52305d8f-5d5a-4b15-9a96-2f03c7c153c6",
+      "unresolved": true
+    }
+  ]
+}
