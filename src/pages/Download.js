@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Row, Col, Container } from 'reactstrap';
 import axios from 'axios';
 import ReactGA from 'react-ga';
-const MobileCard = React.lazy(() => import('../components/Device'));
+const MobileCard = React.lazy(() => import('components/Device'));
 
 
 function initializeReactGA() {
