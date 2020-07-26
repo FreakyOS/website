@@ -41,7 +41,7 @@ export default class Download extends Component {
         return brandlist.map((device, i) => {
             return (
                 <React.Fragment>
-                    <Col xs='6' sm='4' md='3' lg='2' className='p-1'>
+                    <Col xs='6' sm='4' md='3' lg='2' className='p-0' style={{ 'max-height': '340px', width: 'auto' }}>
                         <MobileCard key={i} device={device} />
                     </Col>
                 </React.Fragment>
