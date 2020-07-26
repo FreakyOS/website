@@ -41,7 +41,7 @@ export default class Download extends Component {
         return brandlist.map((device, i) => {
             return (
                 <React.Fragment>
-                    <Col xs='6' sm='4' md='3' lg='2' className='p-1'>
+                    <Col xs='6' sm='4' md='3' lg='2' className='p-0' style={{ 'max-height': '340px', width: 'auto' }}>
                         <MobileCard key={i} device={device} />
                     </Col>
                 </React.Fragment>
@@ -58,7 +58,7 @@ export default class Download extends Component {
                             {brand[0]}
                         </h2>
                     </Row>
-                    <Row className="p-2 justify-content-center">
+                    <Row className="mx-auto justify-content-center">
                         {this.generatebrand(brand[1])}
                     </Row>
                 </React.Fragment>
@@ -70,7 +70,7 @@ export default class Download extends Component {
         initializeReactGA();
         return (
             <React.Fragment>
-                <Container>
+                <Container className='p-1'>
                     {this.generatepage()}
                 </Container>
             </React.Fragment>
